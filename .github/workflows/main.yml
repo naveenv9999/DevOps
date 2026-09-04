@@ -13,5 +13,5 @@ jobs:
   greet:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hare krishna ! ${{ inputs.display_name }}
+      - run: echo "Hare krishna ! ${{ inputs.display_name }}"
       
