@@ -1,0 +1,17 @@
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+    inputs:
+      display_name:
+        description: "Enter name to wish"
+        required: true
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hare krishna ! ${{ inputs.display_name }}
+      
