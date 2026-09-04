@@ -7,6 +7,7 @@ on:
     inputs:
       display_name:
         description: "Enter name to wish"
+        default: "Hem"
         required: true
 
 jobs:
