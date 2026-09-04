@@ -14,5 +14,6 @@ jobs:
   greet:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hare krishna ! ${{ inputs.display_name }}"
+     - name: "greetings"
+       run: echo "Hare krishna ! ${{ inputs.display_name }}"
       
